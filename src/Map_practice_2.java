@@ -21,6 +21,7 @@ public class Map_practice_2 {
             }
         }
         Map <Character, Integer> mapRepeat = new HashMap<>();
+
         for (Map.Entry<Character,Integer> each: map.entrySet()) {
             if (each.getValue()==1){
                 mapRepeat.put(each.getKey(),each.getValue());
