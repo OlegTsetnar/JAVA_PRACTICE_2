@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-public class A1234567 {
+public class A1234567_Find_Unique_MAP {
     public static void main(String[] args) {
         int  number = 123451234;
      String numberStr = ""+number;
@@ -16,7 +16,6 @@ public class A1234567 {
                 map.put(numberChar[i],1);
             }
         }
-
 
         // find unique
         System.out.println(map.entrySet());

@@ -11,13 +11,13 @@ public class Palindrome {
         System.out.println(method(str));
     }
 
-   static boolean method(String str){
+    static boolean method(String str) {
         int begin = str.indexOf(0);
-        int end = str.indexOf(str.length()-1);
+        int end = str.indexOf(str.length() - 1);
 
-        while (begin<end){
-            if (str.toLowerCase().charAt(begin)!=str.toLowerCase().charAt(end)){
-           return false;
+        while (begin < end) {
+            if (str.toLowerCase().charAt(begin) != str.toLowerCase().charAt(end)) {
+                return false;
             }
             begin++;
             end--;
